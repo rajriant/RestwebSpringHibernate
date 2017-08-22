@@ -1,0 +1,36 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="eleaveUserDetailDtoForMobiles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="eleaveUserDetailDtoForMobile">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="adminAsstName"/>
+              <xs:element type="xs:string" name="adminName"/>
+              <xs:element type="xs:string" name="authorityFlag"/>
+              <xs:element type="xs:float" name="basicPay"/>
+              <xs:element type="xs:float" name="CL"/>
+              <xs:element type="xs:string" name="departmentName"/>
+              <xs:element type="xs:float" name="EL"/>
+              <xs:element type="xs:string" name="emdDesignation"/>
+              <xs:element type="xs:string" name="emdEmployeeAddress"/>
+              <xs:element type="xs:short" name="employeeCode"/>
+              <xs:element type="xs:short" name="employeeId"/>
+              <xs:element type="xs:string" name="fullName"/>
+              <xs:element type="xs:string" name="gender"/>
+              <xs:element type="xs:byte" name="globalOrgUnitId"/>
+              <xs:element type="xs:byte" name="leavesToApproveCount"/>
+              <xs:element type="xs:string" name="locationName"/>
+              <xs:element type="xs:byte" name="ouId"/>
+              <xs:element type="xs:byte" name="pendingLeavesCount"/>
+              <xs:element type="xs:byte" name="postId"/>
+              <xs:element type="xs:string" name="postNameEn"/>
+              <xs:element type="xs:string" name="reportingOfficerName"/>
+              <xs:element type="xs:string" name="roleNames"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
